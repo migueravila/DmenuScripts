@@ -1,3 +1,3 @@
 # DmenuCalculator
 
-> ### 📊 A Simple Calculator for Dmenu
+> ### 📊 A Simple Colection of Dmenu scripts
