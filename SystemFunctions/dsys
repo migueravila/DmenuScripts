@@ -6,7 +6,7 @@ cmds="\
 Close		
 Lock		betterlockscreen -l
 Reboot	        reboot
-Shutdown	shutdown -Sh now"
+Shutdown	shutdown -h now"
 
 choice="$(echo "$cmds" | cut -d'	' -f 1 | dmenu -p 'What do you want to do?')" || exit 1
 
