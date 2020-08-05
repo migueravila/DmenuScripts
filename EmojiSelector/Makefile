@@ -2,8 +2,8 @@ PREFIX?=/usr
 BIN?=$(PREFIX)/bin
 
 default:
-	@printf "Usage:\n\tmake install\tinstall prm\n\tmake uninstall\tuninstall prm\n"
+	@printf "Usage:\n\tmake install\tinstall demoji\n\tmake uninstall\tuninstall demoji\n"
 install:
-	install -Dm755 prm $(BIN)/prm
+	install -Dm755 demoji $(BIN)/demoji
 uninstall:
-	rm -f $(BIN)/prm
+	rm -f $(BIN)/demoji
