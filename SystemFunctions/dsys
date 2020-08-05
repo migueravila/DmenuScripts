@@ -1,6 +1,6 @@
 #!/bin/sh
-
-# A dmenu wrapper script for system functions.
+# Based on https://github.com/LukeSmithxyz/voidrice
+# Dmenu Script wrapper script for system functions.
 
 cmds="\
 Close		

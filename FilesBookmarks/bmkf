@@ -1,5 +1,6 @@
 #!/bin/bash
-# Dmenu script for editing some of my more frequently edited config files.
+# From https://gitlab.com/dwt1/dotfiles/-/tree/master/.dmenu
+# Dmenu script for quick bookmarked files
 
 # Here you can declare the options of your files
 declare options=("alacritty

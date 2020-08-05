@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
+# Based on https://github.com/sumnerevans/menu-calc
+# A Dmenu Script for a quick calculator
 
-# https://github.com/onespaceman/menu-calc
-# Calculator for use with rofi/dmenu(2)
-# Copying to the clipboard requires xclip
+# Dependencies: xclip, bc
 
 usage() {
     echo "$(tput bold)DmenuCalculator$(tput sgr0)"

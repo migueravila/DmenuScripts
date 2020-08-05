@@ -1,5 +1,6 @@
 #!/bin/bash
-# Dmenu script for editing some of my more frequently edited config files.
+# Based on https://gitlab.com/dwt1/dotfiles/-/tree/master/.dmenu
+# Dmenu script for quick bookmarked directories
 
 # Here you can declare the options of your files
 declare options=("Repos
