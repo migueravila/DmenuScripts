@@ -3,10 +3,11 @@
 # A dmenu wrapper script for system functions.
 
 cmds="\
-lock		betterlockscreen -l
-reboot	        reboot
-shutdown	shutdown -Sh now"
+Close		
+Lock		betterlockscreen -l
+Reboot	        reboot
+Shutdown	shutdown -Sh now"
 
-choice="$(echo "$cmds" | cut -d'	' -f 1 | dmenu -p 'Do:')" || exit 1
+choice="$(echo "$cmds" | cut -d'	' -f 1 | dmenu -p 'What do you want to do?')" || exit 1
 
 `echo "$cmds" | grep "^$choice	" | cut -d '	' -f2-`
