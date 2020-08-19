@@ -4,17 +4,17 @@
 
 # Here you can declare the options of your files
 declare options=("Repos
+Screenshots
+Downloads
 Images
 Documents
-Scripts
 Videos
-Downloads
 Config
 Firefox
 quit")
 
 # Call Dmenu
-choice=$(echo -e "${options[@]}" | dmenu -i -p 'Edit config file: ')
+choice=$(echo -e "${options[@]}" | dmenu -i -p 'Folders Bookmarks: ')
 
 # The choices and the path of each file
 case "$choice" in
@@ -24,14 +24,14 @@ case "$choice" in
 	Repos)
 		choice="$HOME/Public"
 	;;
+	Screenshots)
+		choice="$HOME/Pictures/Screenshots"
+	;;
 	Images)
 		choice="$HOME/Pictures"
 	;;
 	Documents)
 		choice="$HOME/Documents"
-	;;
-	Scripts)
-		choice="$HOME/Public/Scripts"
 	;;
 	Downloads)
 		choice="$HOME/Downloads"
@@ -43,7 +43,7 @@ case "$choice" in
 		choice="$HOME/.config"
 	;;
 	Firefox)
-		choice="$HOME/.mozilla/firefox/mbckotg9.default-relese/chrome"
+		choice="$HOME/.mozilla/firefox/mbckotg9.default-release/chrome"
 	;;
 	*)
 		exit 1

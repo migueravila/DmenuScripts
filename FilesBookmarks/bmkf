@@ -3,40 +3,40 @@
 # Dmenu script for quick bookmarked files
 
 # Here you can declare the options of your files
-declare options=("alacritty
-dunst
-i3
-neovim
-picom
-polybar
+declare options=("i3
+Polybar
+Alacritty
+Dunst
+Neovim
+Picom
 st
 zsh
 quit")
 
 # Call Dmenu
-choice=$(echo -e "${options[@]}" | dmenu -i -p 'Edit config file: ')
+choice=$(echo -e "${options[@]}" | dmenu -i -p 'Open config file: ')
 
 # The choices and the path of each file
 case "$choice" in
 	quit)
 		echo "Program terminated." && exit 1
 	;;
-	alacritty)
+	Alacritty)
 		choice="$HOME/.config/alacritty/alacritty.yml"
 	;;
-	dunst)
+	Dunst)
 		choice="$HOME/.config/dunst/dunstrc"
 	;;
 	i3)
 		choice="$HOME/.config/i3/config"
 	;;
-	neovim)
+	Neovim)
 		choice="$HOME/.config/nvim/init.vim"
 	;;
-	picom)
+	Picom)
 		choice="$HOME/.config/picom/picom.conf"
 	;;
-	polybar)
+	Polybar)
 		choice="$HOME/.config/polybar/config.ini"
 	;;
 	st)
@@ -50,5 +50,5 @@ case "$choice" in
 	;;
 esac
 #Call terminal emulator and open the file
-st -e nvim $choice
+alacritty -e nvim $choice
 
