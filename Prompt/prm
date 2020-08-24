@@ -2,8 +2,7 @@
 # From https://github.com/LukeSmithxyz/voidrice 
 # Dmenu Script for binary prompts
 
-
 # Usage
-# `./prompt "Do you want to shutdown?" "shutdown -h now"`
+# `./prm "Do you want to shutdown?" "shutdown -h now"`
 
 [ "$(printf "No\\nYes" | dmenu -i -p "$1" )" = "Yes" ] && $2
