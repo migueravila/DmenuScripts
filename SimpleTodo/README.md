@@ -1,4 +1,4 @@
-# Todo
+# SimpleTodo
 
 > #### Command name: `dtodo`
 
