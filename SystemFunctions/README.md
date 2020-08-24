@@ -1,17 +1,13 @@
-# ExtendedDmenu
+# SystemFunctions
 
-> ### 📊 A Simple Colection of Dmenu scripts
+> #### Command name: `dsys`
+>
+> #### Developer: [Repo](https://github.com/LukeSmithxyz/voidrice)
 
-### 📄 List of scripts
+### 📄 Usage:
 
--   Calculator
--   Emoji Selector
--   Bookmarks (Files and Directories)
--   Simple Prompt (Yes or No)
--   Todo List
--   System functions (Shutdown, Lock, etc)
--   Web Search
+Running the command `dsys` will give you a promp where you can choose between `Lock`, `Reboot` and `Shutdown` the host
 
-### ⚙️ Installation
+### ⚙️ Installation:
 
 Every script has It's own makefile. In the directory of the script you want to install, run `sudo make install` and It'll be installed in your `$PATH`.
