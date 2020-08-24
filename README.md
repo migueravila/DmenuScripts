@@ -11,5 +11,3 @@
 -   Todo List
 -   System functions (Shutdown, Lock, etc)
 -   Web Search
-
-I
