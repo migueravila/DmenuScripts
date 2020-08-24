@@ -1,12 +1,12 @@
-# Calculator
+# Todo
 
-> #### Command name: `=`
+> #### Command name: `dtodo`
 
 ### 📄 Usage:
 
 Running the command `dtodo` will give you a promp where you can type the new task and by selecting another tasks they'll be deleted.
 
-> It'll create a file in the `~/ folder called **todo**`
+> It'll create a file in the `~/ folder called 'todo'` you can change this directory and the file name by changing the `dtodo` file in this subdirectory
 
 ### ⚙️ Installation:
 
