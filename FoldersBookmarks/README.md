@@ -6,7 +6,7 @@
 
 ### 📄 Usage:
 
-When you run the script youll have 
+When you run the script you'll have to choose one option to open the file manager in that specific folder.
 
 ### ⚙️ Installation:
 
