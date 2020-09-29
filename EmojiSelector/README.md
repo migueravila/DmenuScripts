@@ -1,12 +1,12 @@
 # Emoji Selector
 
-> #### Command name: `=`
+> #### Command name: `demoji`
 >
-> #### Developer: [Repo](https://github.com/sumnerevans/menu-calc)
+> #### Developer: Luke Smith (And some minor changes by me)
 
 ### 📄 Usage:
 
-You can run 
+You can run the demoji script (once you install it) and have a list of emojis, pick one in the dmenu and It'll copy to your clipboard. Now you can paste it wherever you want. You need **xclip** in orer to make it functional
 
 ### ⚙️ Installation:
 
